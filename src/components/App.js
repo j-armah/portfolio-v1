@@ -1,4 +1,5 @@
 import React from 'react'
+import projects from './data'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <h2> Contacts </h2>
       <h2> Welcome </h2>
       <h2> Projects </h2>
+      <p> {projects.flixfix.url}</p>
     </div>
   );
 }
